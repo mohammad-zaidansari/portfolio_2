@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>muhammadZED4</title>
+    <link rel="stylesheet" href="internal.css" />
+  </head>
+  <body>
+    <div class="main">
+      <!-- SIDEBAR -->
+      <div class="sidebar">
+        <h1>
+          Muhammad <br />
+          Zaid
+        </h1>
+        <a
+          href="index.html"
+          class="playAudio"
+          data-audio="audio/mix_00s (audio-joiner.com) (1).mp3"
+          >> Home</a
+        >
+        <a
+          href="#about"
+          onclick="navigateTo(event, 'about')"
+          class="current playAudio"
+          data-audio="audio/mix_00s (audio-joiner.com) (1).mp3"
+          >> About</a
+        >
+        <a
+          href="#experience"
+          onclick="navigateTo(event, 'experience')"
+          class="playAudio"
+          data-audio="audio/mix_00s (audio-joiner.com) (1).mp3"
+          >> Skills</a
+        >
+        <a
+          href="#projects"
+          onclick="navigateTo(event, 'projects')"
+          class="playAudio"
+          data-audio="audio/mix_00s (audio-joiner.com) (1).mp3"
+          >> Projects</a
+        >
+        <a
+          href="#contact"
+          onclick="navigateTo(event, 'contact')"
+          class="playAudio"
+          data-audio="audio/mix_00s (audio-joiner.com) (1).mp3"
+          >> Contact</a
+        >
+        <audio id="audioPlayer"></audio>
+      </div>
+      <!-- SIDEBAR END -->
+
+      <!-- INFORMATION -->
+
+      <div class="container">
+        <div class="main">
+          <div id="about" class="content">
+            <div class="about">
+              <header>
+                <h1>Welcome</h1>
+                <p>I'm Muhammad Zaid</p>
+              </header>
+              <h2>About Me</h2>
+              <p>
+                I'm Mohammad Zaid, a web developer fueled by creativity and
+                driven by code. I specialize in transforming visions into
+                functional, elegant websites. Let's collaborate and make your
+                digital dreams a reality!
+              </p>
+              <br />
+              <p>
+                I'm a software engineer currently working on my profile! In JUNE
+                of 2024 I graduated from University of Lucknow with my Computer
+                Application.
+              </p>
+              <br />
+              <p>
+                Thank you for taking the time to check out my portfolio. I
+                really hope you enjoy exploring it as much as I enjoyed building
+                it. If you have any questions or comments, feel free to contact
+                me using
+                <a href="mailto:muhammadansari.zaid@gmail.com" class="playAudio"
+                data-audio="audio/mix_00s (audio-joiner.com) (1).mp3">this form</a> or
+                shoot me an email at
+                <a href="mailto:muhammadansari.zaid@gmail.com" class="playAudio"
+                data-audio="audio/mix_00s (audio-joiner.com) (1).mp3"
+                  >muhammadansari.zaid@gmail.com</a
+                >.
+              </p>
+            </div>
+            <br />
+
+            <div class="resume">
+              <h2>
+                <img src="assets/download.gif" alt="this is a gif" /> &nbsp; &nbsp;
+                Looking for my resume?
+              </h2>
+              <p><a href="zaidcvv.pdf" download="zaid_CV.pdf" class="playAudio"
+                data-audio="audio/mix_00s (audio-joiner.com) (1).mp3">Click here to download it!</a></p>
+            </div>
+          </div>
+
+          <div id="experience" class="content" style="display: none">
+            <div class="experience">
+              <h2>Skills</h2>
+              <!-- <p>
+                <ul>
+                    <li>Worked with small and large teams in several Web Development
+                        projects.</li>
+                        <li>Offered alternative solutions to improve project.</li>
+                        <li> Successfully completed multiple web page designing projects
+                            simultaneously.</li>
+                            <li> Organized project files and coding resources
+                                which led to faster project turnaround.</li>
+                                <li>Web Development
+                                    Internship at Techplie Technology.</li>
+                </ul>
+              </p> -->
+              
+              <div class="cards-container">
+                
+                <div class="card">
+                    <img src="assets/icons8-html-400.png" alt="this is an image" class="card-img">
+                    <p class="card-title">HTML 5</p>
+                </div>
+                <div class="card">
+                    <img src="assets/icons8-css-400.png" alt="this is an image" class="card-img">
+                    <p class="card-title">CSS</p>
+                </div>
+                <div class="card">
+                    <img src="assets/icons8-js-480.png" alt="this is an image" class="card-img">
+                    <p class="card-title">JavaScript</p>
+                </div>
+                <div class="card">
+                    <img src="assets/icons8-python-96.png" alt="this is an image" class="card-img">
+                    <p class="card-title">Python</p>
+                </div>
+                <div class="card">
+                    <img src="assets/icons8-nodejs-480.png" alt="this is an image" class="card-img">
+                    <p class="card-title">Node JS</p>
+                </div>
+                <div class="card">
+                    <img src="assets/icons8-express-js-480.png" alt="this is an image" class="card-img">
+                    <p class="card-title">Express Js</p>
+                </div>
+                <div class="card">
+                    <img src="assets/icons8-bootstrap-400.png" alt="this is an image" class="card-img">
+                    <p class="card-title">Bootstrap</p>
+                </div>
+                <div class="card">
+                    <img src="assets/icons8-mongodb-a-cross-platform-document-oriented-database-program-96.png" alt="this is an image" class="card-img">
+                    <p class="card-title">MongoDB</p>
+                </div>
+                <div class="card">
+                    <img src="assets/icons8-sql-60.png" alt="this is an image" class="card-img">
+                    <p class="card-title">SQL</p>
+                </div>
+                <div class="card">
+                    <img src="assets/icons8-git-96.png" alt="this is an image" class="card-img">
+                    <p class="card-title">Git Blash</p>
+                </div>
+                <div class="card">
+                    <img src="assets/icons8-github-400.png" alt="this is an image" class="card-img">
+                    <p class="card-title">GitHub</p>
+                </div>
+                
+                <div class="card">
+                    <img src="assets/icons8-excel-480.png" alt="this is an image" class="card-img">
+                    <p class="card-title">MS Excel</p>
+                </div>
+                <div class="card">
+                    <img src="assets/icons8-illustrator-480.png" alt="this is an image" class="card-img">
+                    <p class="card-title">Illustrator</p>
+                </div>
+           
+            </div>
+
+            </div>
+          </div>
+
+          <!-- PROJECTS -->
+          <div id="projects" class="content" style="display: none">
+            <div class="projects">
+              <h2>Projects</h2>
+              <div class="cards-container">
+
+                <div class="service-card">
+                    <img src="assets/icons8-around-the-globe-96.png" alt="">
+                    <p class="service-title">WANDERLUST</p>
+                    <p class="service-description">Website ravida surna eveti semen the conse tusio anivite dianne one nivam acestion vue artin dictum.</p>
+                    <a href="" class="playAudio"
+                    data-audio="audio/mix_00s (audio-joiner.com) (1).mp3">Visit Here!</a>
+                    <p class="service-number">01</p>
+                </div>
+              <div class="service-card">
+                <img src="assets/icons8-blogging-96.png" alt="">
+                <p class="service-title">BLOGIFY HUB</p>
+                <p class="service-description">Website ravida surna eveti semen the conse tusio anivite dianne one nivam acestion vue artin dictum.</p>
+                <a href="" class="playAudio"
+                data-audio="audio/mix_00s (audio-joiner.com) (1).mp3">Visit Here!</a>
+                <p class="service-number">02</p>
+            </div>
+             
+            </div>
+
+            </div>
+          </div>
+
+
+          <!-- CONTACT FORM -->
+          <div id="contact" class="content" style="display: none">
+            <div class="contact">
+              <h2>Contact</h2>
+              <div class="contact-form">
+                <div class="icons">
+                  <a href="https://github.com" target="_blank"><img src="assets/icons8-github-50.png" alt=""></a>
+                  <a href="https://linkedin.com" target="_blank"><img src="assets/icons8-linked-in-50.png" alt=""></a>
+                  <a href="https://twitter.com" target="_blank"><img src="assets/icons8-twitter-50.png" alt=""></a>
+                  <a href="https://twitter.com" target="_blank"><img src="assets/icons8-telegram-50.png" alt=""></a>
+                </div>
+                <p>
+                  I am currently unemployed, however if you have any
+                  opportunities, feel free to reach out - I would love to chat!
+                  You can reach me via my personal email, or fill out the form
+                  below!
+                </p>
+                <p>
+                  Email:
+                  <a href="mailto:henryheffernan@gmail.com" class="email-link"
+                    >muhammadansari.zaid@gmail.com</a
+                  >
+                </p>
+                <form action="https://api.web3forms.com/submit" method="POST" >
+                    <input type="hidden" name="access_key" value="0ee32e43-1b5f-46bc-8d41-4d147f0f17ab"><br>
+                  <label for="name">* Your name:</label>
+                  <input type="text" id="name" name="name" required />
+                  <label for="email">* Email:</label>
+                  <input type="email" id="email" name="email" required />
+                  <label for="company">Company (optional):</label>
+                  <input type="text" id="company" name="company" />
+                  <label for="message">* Message:</label>
+                  <textarea id="message" name="message" required></textarea>
+                  <button type="submit" class="playAudio"
+                  data-audio="audio/mix_00s (audio-joiner.com) (1).mp3">Send Message</button>
+                </form>  <br>
+                <p>All messages get forwarded straight to my personal email</p>
+               
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="internal.js"></script>
+  </body>
+</html>

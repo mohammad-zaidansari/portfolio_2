@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@font-face {
+  font-family: "retro";
+  src: url(retro_computer/retro_computer_personal_use.ttf);
+}
+
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  height: 100%;
+  width: 100%;
+  background-color: rgb(0, 0, 0);
+  color: whitesmoke;
+}
+
+#loop > h1 {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: 5px;
+  font-size: 35px;
+}
+
+
+
+#loop > p > span {
+  font-family: "Silkscreen", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: yellow;
+  font-size: 25px;
+  letter-spacing: 1px;
+  margin: 0;
+  padding: 0;
+}
+
+#loop > p {
+  margin-top: 15px;
+}
+
+.main {
+    height: 100vh;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    /* background-color: rgb(65, 65, 65); */
+}
+
+.links{
+  margin-top: 30px;
+}
+
+.links a {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Silkscreen", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  color: whitesmoke;
+  text-decoration: none;
+  margin-right: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+  #loop>h1 {
+    font-size: 30px; /* Decrease font size for smaller screens */
+    line-height: 1.1; /* You can adjust line height if needed */
+  }
+  #loop>p{
+    font-size: 12px;
+    line-height: 24px;
+  }
+}
+@media screen and (max-width: 667px) {
+  #loop>h1 {
+    font-size: 24px; /* Decrease font size for smaller screens */
+    line-height: 1.1; /* You can adjust line height if needed */
+  }
+  #loop>p{
+    font-size: 10px;
+    line-height: 24px;
+  }
+  #loop>h3{
+    font-size: 14px;
+  }
+  #loop>h3>span{
+    font-size: 16px;
+  }
+  .links a {
+    font-size: 15px;
+    margin-right: 15px;
+  }
+
+}
