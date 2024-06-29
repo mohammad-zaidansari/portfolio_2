@@ -48,11 +48,15 @@ document.querySelectorAll('.playAudio').forEach(function(anchor) {
     });
 });
 
-// const btn = document.querySelector('button');
-// const textInput = document.querySelectorAll('input');
+
+// let btn = document.getElementsByClassName('.btn');
+// let Inputs = document.getElementsByClassName('.txt');
+
 // btn.addEventListener('click', () => {
-//   textInput.forEach(input => input.value= "");
-// })
+//   Inputs.forEach( input => input.value = '');
+// });
+
+
 
 // SHEET CONTACT FORM
 const scriptURL = 'https://script.google.com/macros/s/AKfycbyzGu3sdr8tbyvYkJSJJlAJNJu-rp1Bf8-2vwGY7etKLcH8ZgzjMKV7B8V7OD-uvmRu/exec'
@@ -63,4 +67,5 @@ form.addEventListener('submit', e => {
   fetch(scriptURL, { method: 'POST', body: new FormData(form)})
     .then(response => alert("Thanks for Contacting us..! We Will Contact You Soon..."))
     .catch(error => console.error('Error!', error.message))
-})
+});
+
