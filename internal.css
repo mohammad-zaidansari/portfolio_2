@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 @font-face {
   font-family: "retro";
@@ -25,178 +25,168 @@ body {
 }
 
 .main {
-    height: 100vh;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    justify-content: space-between;
-    /* background-color: rgb(65, 65, 65); */
+  height: 100vh;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-between;
+  /* background-color: rgb(65, 65, 65); */
 }
 
 .sidebar {
-    width: 200px;
-    /* background-color: #333; */
-    color: #fff;
-    padding-top: 30px;
-    /* min-height: 100vh;
+  width: 200px;
+  /* background-color: #333; */
+  color: #fff;
+  padding-top: 30px;
+  /* min-height: 100vh;
     position: fixed; */
-  }
-  .sidebar h1 {
-    /* text-align: center; */
-    font-size: 22px;
-    margin-bottom: 30px;
-  }
-  .sidebar a {
-    display: block;
-    color: #fff;
-    text-decoration: none;
-    font-family: "Silkscreen", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    /* text-transform: uppercase; */
-    font-size: 18px;
-    /* padding: 10px 10px 10px 20px; Align left with padding */
-    text-align: left; /* Align text left */
-    transition: all 0.3s ease;
-    margin-bottom: 20px;
-  }
-  .sidebar a:hover {
-    color: yellow;
-  }
-  .sidebar .current {
-    /* background-color: #575757; */
-    color: yellow;
-    transform: translateX(15px);
-  }
+}
+.sidebar h1 {
+  /* text-align: center; */
+  font-size: 22px;
+  margin-bottom: 30px;
+}
+.sidebar a {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  font-family: "Silkscreen", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  /* text-transform: uppercase; */
+  font-size: 18px;
+  /* padding: 10px 10px 10px 20px; Align left with padding */
+  text-align: left; /* Align text left */
+  transition: all 0.3s ease;
+  margin-bottom: 20px;
+}
+.sidebar a:hover {
+  color: yellow;
+}
+.sidebar .current {
+  /* background-color: #575757; */
+  color: yellow;
+  transform: translateX(15px);
+}
 
+.container {
+  margin-left: 50px;
+  /* padding: 20px; */
+  width: calc(100% - 220px);
+}
+header {
+  color: whitesmoke;
+  padding-top: 30px;
+  min-height: 70px;
+  border-bottom: yellow 3px solid;
+}
+header h1 {
+  margin: 0;
+  font-size: 35px;
+  margin-bottom: 5px;
+}
+header p {
+  font-size: 20px;
+  margin-top: 0;
+}
+.about h2 {
+  padding-top: 10px;
+}
+.about p a {
+  font-family: "Silkscreen", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-decoration: none;
+  color: yellow;
+}
 
+.about,
+.experience,
+.projects,
+.contact {
+  margin-top: 20px;
+}
+.about h2,
+.experience h2,
+.projects h2,
+.contact h2 {
+  color: whitesmoke;
+}
+.about p,
+.experience p,
+.projects p,
+.contact p {
+  line-height: 1.5;
+}
 
-  .container {
-    margin-left: 50px;
-    /* padding: 20px; */
-    width: calc(100% - 220px);
-  }
-  header {
-    color: whitesmoke;
-    padding-top: 30px;
-    min-height: 70px;
-    border-bottom: yellow 3px solid;
-  }
-  header h1 {
-    margin: 0;
-    font-size: 35px;
-    margin-bottom: 5px;
-  }
-  header p {
-    font-size: 20px;
-    margin-top: 0;
-  }
-  .about h2{
-    padding-top: 10px;
-  }
-  .about p a {
-    font-family: "Silkscreen", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    text-decoration: none;
-    color: yellow;
-  }
-
-  .about,
-  .experience,
-  .projects,
-  .contact {
-    margin-top: 20px;
-  }
-  .about h2,
-  .experience h2,
-  .projects h2,
-  .contact h2 {
-    color: whitesmoke;
-  }
-  .about p,
-  .experience p,
-  .projects p,
-  .contact p {
-    line-height: 1.5;
-  }
-
-  .resume {
-    margin-top: 20px;
-  }
-  .resume a {
-    font-family: "Silkscreen", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    text-decoration: none;
-    color: yellow;
-  }
-
+.resume {
+  margin-top: 20px;
+}
+.resume a {
+  font-family: "Silkscreen", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-decoration: none;
+  color: yellow;
+}
 
 /* CARD */
 
-  .card{
-    background-color: #1b1b1b;
-    width: 120px ;
-    border-radius: 0.5rem;
-    padding: 1rem;
-    margin-left: 1.5rem;
-    margin-top: 1rem;
+.card {
+  background-color: #1b1b1b;
+  width: 120px;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  margin-left: 1.5rem;
+  margin-top: 1rem;
 }
 
-.card:hover{
-    background-color: #232323;
+.card:hover {
+  background-color: #232323;
 }
 
-.cards-container{
-    display: flex;
-    flex-wrap: wrap;
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
 }
 
-.card-img{
-    image-rendering: pixelated;
-    width: 100%;
-    border-radius: 0.5rem;
-    /* filter: grayscale(100); */
+.card-img {
+  image-rendering: pixelated;
+  width: 100%;
+  border-radius: 0.5rem;
+  /* filter: grayscale(100); */
 }
 /* .card-img:hover{
     filter: grayscale(0);
 } */
 .card-title {
-    font-weight: 600;
+  font-weight: 600;
 }
-.card-info{
-    font-size: 0.80rem;
-    opacity: 0.8;
+.card-info {
+  font-size: 0.8rem;
+  opacity: 0.8;
 }
-
-
-
-
-
-
-
 
 /* PROJECTS */
-.projects h2{
-    margin-bottom: 20px;
-    font-size: 24px;
+.projects h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
 }
 .service-card {
-    width: 300px;
-    padding: 10px;
-    /* background-color: black; */
-    color: whitesmoke;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 12px;
-    /* box-shadow: 0px 4px 6px rgba(204, 204, 204, 0.1); */
-    transition: all 0.3s;
-    margin-right: 50px;
+  width: 300px;
+  padding: 10px;
+  /* background-color: black; */
+  color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+  /* box-shadow: 0px 4px 6px rgba(204, 204, 204, 0.1); */
+  transition: all 0.3s;
+  margin-right: 50px;
 }
 
 /* .service-card:hover {
@@ -204,126 +194,110 @@ body {
 } */
 
 .service-icon {
-    height: 48px;
-    width: 48px;
-    stroke: #4B5563;
-    transition: stroke 0.3s;
+  height: 48px;
+  width: 48px;
+  stroke: #4b5563;
+  transition: stroke 0.3s;
 }
 
-.service-card a{
-    text-decoration: none;
-    color: yellow;
-    font-family: "Silkscreen", sans-serif;
-    font-weight: 400;
-    font-style: normal;
+.service-card a {
+  text-decoration: none;
+  color: yellow;
+  font-family: "Silkscreen", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .service-card:hover .service-icon {
-    stroke: #9CA3AF;
+  stroke: #9ca3af;
 }
 
 .service-title {
-    font-size: 20px;
-    font-weight: bold;
-    color: rgba(0, 0, 0, 0.8);
-    transition: color 0.3s;
+  font-size: 20px;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.8);
+  transition: color 0.3s;
 }
 
 .service-card .service-title {
-    color: white;
+  color: white;
 }
 
 .service-description {
-    color: #9CA3AF;
-    font-size: 0.875rem;
+  color: #9ca3af;
+  font-size: 0.875rem;
 }
 
 .service-number {
-    font-size: 3rem;
-    font-weight: bold;
-    align-self: flex-end;
-    -webkit-text-stroke: 1px gray;
-    -webkit-text-fill-color: transparent;
+  font-size: 3rem;
+  font-weight: bold;
+  align-self: flex-end;
+  -webkit-text-stroke: 1px gray;
+  -webkit-text-fill-color: transparent;
 }
-.email-link{
-    text-decoration: none;
-    color: yellow;
-    font-family: "Silkscreen", sans-serif;
-    font-weight: 400;
-    font-style: normal;
+.email-link {
+  text-decoration: none;
+  color: yellow;
+  font-family: "Silkscreen", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
-
 
 /* Basic Styles */
 form {
-    max-width: 600px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  }
-  
-  label {
-    display: block;
-    margin-bottom: 8px;
-    font-family: "Silkscreen", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-  }
-  
-  input[type="text"],
-  input[type="email"],
-  textarea {
-    border: none;
-    width: 100%;
-    padding: 8px;
-    margin-bottom: 1em;
-    border-radius: 4px;
-    box-sizing: border-box;
-  }
-  
- input[type="submit"] {
-  background-color: black;
-  color: whitesmoke;
-  height: 50px;
-  width: 150px;
+  max-width: 600px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-family: "Silkscreen", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
   border: none;
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 1em;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type="submit"] {
+  background-color: black;
+  color: yellow;
+  height: 50px;
+  cursor: pointer;
+  width: 150px;
+  border: 2px solid yellow;
   text-decoration: none;
- }
+  font-family: "Silkscreen", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
 
-  
-  /* Responsive Styles */
-  @media (max-width: 600px) {
-    form {
-      padding: 0.5em;
-    }
-  
-    label {
-      font-size: 0.9em;
-    }
-  
-    
+/* Responsive Styles */
+@media (max-width: 600px) {
+  form {
+    padding: 0.5em;
   }
-  
-  @media (max-width: 400px) {
-    form {
-      padding: 0.25em;
-    }
-  
-    label {
-      font-size: 0.8em;
-    }
-  
-   
+
+  label {
+    font-size: 0.9em;
   }
-  
+}
 
+@media (max-width: 400px) {
+  form {
+    padding: 0.25em;
+  }
 
-
-
-
-
-
-
-
-
-
-
-
+  label {
+    font-size: 0.8em;
+  }
+}
